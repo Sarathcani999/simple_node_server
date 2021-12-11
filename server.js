@@ -10,7 +10,7 @@ app.use(express.json());
 // apis
 app.get('/' , (req,res) => {
 	var outputJSON = {
-		"message" : "sucess"
+		"message" : "sucess for GET/"
 	};
 	res.json(outputJSON);
 });
