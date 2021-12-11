@@ -1,3 +1,4 @@
+// Sample Node App
 const express = require('express');
 
 const app = express();
